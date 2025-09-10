@@ -1,0 +1,7 @@
+# NyavalleyCurio-Ecommerce-Platform-
+
+Hey! I’ve been working on a database for my e-commerce platform, where my dad is the sole seller of wooden carvings, stone carvings, beaded necklaces, paintings, and antiques. I’ve designed an SQL schema and want to share it with you for feedback. Here’s what I’ve done:
+I created a Customers table to store user details like login info and registration dates, so I can track my shoppers. The Curios table is where I list my products, with fields like curio_type (e.g., Wooden Carving), rarity_level, origin_country, condition, material, price, and creation_date to highlight their uniqueness. I also added stock_quantity to manage my inventory. For the shopping process, I set up a Shopping_Cart table for customers to add items, a Shopping_Requests table to handle orders, and a Shopping_History table to record past purchases.
+I included a Credit_Verification table for secure payments and a Shipping table to track deliveries, which is key for fragile items like stone carvings. Since I’m managing everything, I added an E_Commerce_Admin table for myself to oversee the platform. I also created a Comments table for customer feedback and a Categories table to organize my curios into categories like Antiques or Beaded Jewelry, with subtypes for more detail.
+
+Please feel free to suggest any improvements for this database. Thank you for your time and input.
